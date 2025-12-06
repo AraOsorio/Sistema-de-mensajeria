@@ -4,7 +4,7 @@ body,menu{
 
 
 menu{
-    background-color: rgb(255, 195, 195);
+    background-color: rgb(255, 255, 255);
     width: 350px;
     margin:0;
     padding:0;
@@ -33,9 +33,21 @@ menu li{
 .container-menu-superior{
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap:120px;
+    border-bottom:1px solid rgb(172, 172, 172);
+    border-right:2px solid rgb(154, 154, 154);
+}
+
+.container-menu{
+    display: flex;
+    align-items: center;
     padding: 15px;
     gap:120px;
-    border-bottom:1px solid rgb(61, 61, 61)
+    border-bottom:1px solid rgb(172, 172, 172);
+    border-right:2px solid rgb(154, 154, 154);
 }
 
 .container-item{
@@ -47,6 +59,18 @@ menu li{
 .container-text{
     display: flex;
     flex-direction: column;
+}
+
+
+button{
+    background-color: mediumpurple;
+    border: 0;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: white;
+    margin: 30px;
 }
 
 h4{
